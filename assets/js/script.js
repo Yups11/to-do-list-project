@@ -15,7 +15,7 @@ function CreateToDoData() {
     }
 
     let li = document.createElement("li");
-    const todoItems = `<div ondblclick="CompleteTodoItem(this)">${todoValue.value}</div>`;
+    const todoItems = `<div ondblclick="CompleteTodoItem(this)">${todoValue.value}</div><div><img class="delete todo-controls" onclick="DeleteToDoItems(this)" src="assets/images/delete-tasks.png"></div>`;
 
     li.innerHTML = todoItems;
     listItems.appendChild(li);
@@ -26,5 +26,12 @@ function CompleteTodoItem(e) {
     console.log(e.parentElement);
     if (e.parentElement.querySelector("div").style.textDecoration === "") {
         e.parentElement.querySelector("div").style.textDecoration = "line-through";
+    }
+}
+
+function DeleteToDoItems(e) {
+    let deleteValue = e.parentElement.parentElement.querySelector("div").innerText;
+    if(confirm('Do you want to delete this task?')) {
+        e.parentElement.parentElement.parentElement.querySelector("li").remove();
     }
 }
