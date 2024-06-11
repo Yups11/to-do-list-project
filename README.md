@@ -54,7 +54,7 @@ Once the master branch has been selected, the page will be automatically refresh
 - The live link can be found here - https://yups11.github.io/to-do-list-project/
 
 ## Credits
-I make desing and code this website form myself idea.
+I make desing and code this website from myself idea.
 
 ### Content
 - The text for the Home page was produced by myself.
@@ -62,3 +62,10 @@ I make desing and code this website form myself idea.
 - The icons in the were taken from Font Awesome.
 - The images was taken from google.
 - The screens was taken myself.
+
+## Future improvement
+- Add function for editing tasks
+- Add function to set tasks as important or less important
+- Add calendar and dates to set when the tasks to be completed
+- Add local storage
+- Add different users
