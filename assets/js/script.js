@@ -2,6 +2,12 @@ const todoValue = document.getElementById("todoText"),
     listItems = document.getElementById("list-items"),
     addUpdateClick = document.getElementById("AddUpdateClick");
 
+    todoValue.addEventListener("keypress", function (e) {
+        if (e.key === "Enter") {
+            addUpdateClick.click();
+        }
+    });
+
 function CreateToDoData() {
     if (todoValue.value === "") {
         alert("Your task is empty!");
