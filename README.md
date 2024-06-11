@@ -5,9 +5,18 @@ The ToDo list App can be used for shopping lists, home work wich need to be done
 
 ![Header](https://github.com/Yups11/to-do-list-project/blob/main/media/readme-photo1.png)
 
-## Features
+## Main Features
 - Add new tasks
 - Delete tasks
 - Mark complete tasks
 - Delete completed tasks
+
 ![Header](https://github.com/Yups11/to-do-list-project/blob/main/media/readme-photo2.png)
+
+### Extra features
+- Alert when the added task is empty
+- Alert when task is deleted
+
+![Header](https://github.com/Yups11/to-do-list-project/blob/main/media/readme-photo3.png)
+
+![Header](https://github.com/Yups11/to-do-list-project/blob/main/media/readme-photo4.png)
