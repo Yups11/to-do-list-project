@@ -51,4 +51,14 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
--The live link can be found here - https://yups11.github.io/to-do-list-project/
+- The live link can be found here - https://yups11.github.io/to-do-list-project/
+
+## Credits
+I make desing and code this website form myself idea.
+
+### Content
+- The text for the Home page was produced by myself.
+- Instructions on how to implement input validation was taken from Code Institute tutorials.
+- The icons in the were taken from Font Awesome.
+- The images was taken from google.
+- The screens was taken myself.
