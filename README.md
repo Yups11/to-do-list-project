@@ -10,22 +10,22 @@ The ToDo list App can be used for shopping lists, home work wich need to be done
 ### Main features
 - Add new tasks
 - Delete tasks
-- Mark complete tasks
-- Delete completed tasks
 
 ![Header](https://github.com/Yups11/to-do-list-project/blob/main/media/readme-photo2.png)
 
 ### Extra features
 - Alert when the added task is empty
-- Alert when task is deleted
 
 ![Header](https://github.com/Yups11/to-do-list-project/blob/main/media/readme-photo3.png)
 
-![Header](https://github.com/Yups11/to-do-list-project/blob/main/media/readme-photo4.png)
-
 ## Testing
 
-The website was tested how will look on different devices from small smarthphones to large desktops. Main page(Add, delete and coomplete tasks) was tested manualy.
+The website was tested how will look on different devices from small smarthphones to large desktops. Main page(Add, delete) was tested manualy.
+
+### Fixed Bugs
+- Local storage set up
+- User can't add empty task
+- User can delete specific task(not one by one)
 
 ### Validator Testing
 
@@ -67,5 +67,4 @@ I make desing and code this website from myself idea.
 - Add function for editing tasks
 - Add function to set tasks as important or less important
 - Add calendar and dates to set when the tasks to be completed
-- Add local storage
 - Add different users

@@ -24,13 +24,13 @@
 <body>
     <div class="container">
         <div class="todo-header">
-            <h1>ToDo List<i class="fa-solid fa-list-check"></i></h1>
+            <h1>To-Do List <i class="fa-solid fa-list-check"></i></h1>
         </div>
         <div class="todo-body">
-            <input type="text" id="todoText" class="todo-input" placeholder="Add your task">
-            <img src="assets/images/to-do-body-img.png" alt="+" id="AddUpdateClick" onclick="CreateToDoData()">
+            <input type="text" id="input-box" placeholder="Add your task">
+            <button onclick="addTask()"><img src="assets/images/to-do-body-img.png" alt="+"></button>
         </div>
-        <ul id="list-items" class="list-items"></ul>
+        <ul id="list-container"></ul>
     </div>
     <script src="assets/js/script.js"></script>
 </body>
